@@ -1,3 +1,61 @@
-h1{
-    color: red;
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,400&display=swap');
+</style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Lato', sans-serif;;
+}
+.hero{
+    background-image: url(../image/cow.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.hero{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family:cursive;
+    word-spacing: 20px;
+    letter-spacing: 30px;
+    padding-top: 60px;
+   
+}
+.artical ,#cow-type{
+    width: 80%;
+    /* margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    border-width: 15px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+
+    background-color: rgb(27, 191, 191);
+    padding: 30px;
+}
+.artical h2{
+    text-align: center;
+    font-size: 48px;
+
+    border-style: dashed;
+    border-width: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: yellow;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.artical p{
+    font-size: 20px;
+    line-height: 1em;
+}
+.artical p .imp{
+    font-size: 2rem;
 }
