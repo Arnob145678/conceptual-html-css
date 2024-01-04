@@ -23,6 +23,7 @@
     word-spacing: 20px;
     letter-spacing: 30px;
     padding-top: 60px;
+    clip-path: polygon(50% 0%, 100% 0, 82% 100%, 18% 100%, 0 0);
    
 }
 .artical ,#cow-type{
@@ -32,14 +33,10 @@
     margin-top: 30px;
     margin-bottom: 60px; */
     margin: 60px auto;
-    border-width: 15px;
-    border-color: rgb(255, 0, 0);
-    border-style: solid;
-
-    background-color: rgb(27, 191, 191);
+    background: linear-gradient(45deg, pink, rgb(17, 137, 212));
     padding: 30px;
 }
-.artical h2{
+.artical h2, #cow-type h2{
     text-align: center;
     font-size: 48px;
 
@@ -58,4 +55,17 @@
 }
 .artical p .imp{
     font-size: 2rem;
+}
+.cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+   
+}
+.cow-images div{
+    width: 200px;
+}
+.cow-images img{
+    width: 30%;
 }
